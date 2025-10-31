@@ -77,7 +77,7 @@ export const metadata: Metadata = {
       "Leading AI software agency helping startups and businesses automate, scale, and innovate with custom software development and artificial intelligence solutions.",
     images: [
       {
-        url: "/panzel-og-img.png", // Create a 1200x630px image
+        url: "/panzle-og-img.png", // Create a 1200x630px image
         width: 1200,
         height: 630,
         alt: "Panzle - AI-Driven Software Solutions",
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     title: "Panzle - AI-Driven Custom Software Development & Automation",
     description:
       "Transform your business with AI-powered software solutions. Custom development, AI integration, and automation for startups and enterprises.",
-    images: ["/panzel-og-img.png"], // Create a 1200x600px image
+    images: ["/panzle-og-img.png"], // Create a 1200x600px image
     creator: "@panzle_official", // Replace with your Twitter handle
   },
 
@@ -137,7 +137,7 @@ export const organizationSchema = {
   "@type": "Organization",
   name: "Panzle",
   url: "https://panzle.com",
-  logo: "https://panzle.com/Panzel.webp",
+  logo: "https://panzle.com/Panzle.webp",
   description:
     "AI-driven software development agency specializing in custom software, AI integration, and automation solutions for startups and enterprises.",
   foundingDate: "2025", // Update with your actual founding date
@@ -228,7 +228,7 @@ export const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   name: "Panzle",
-  image: "https://panzle.com/Panzel.webp",
+  image: "https://panzle.com/Panzle.webp",
   description:
     "AI and software development agency helping businesses automate, scale, and innovate",
   email: "tunde@panzle.com",

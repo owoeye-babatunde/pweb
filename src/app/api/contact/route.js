@@ -12,8 +12,9 @@ export async function POST(req) {
 
     // create transporter
     const transporter = nodemailer.createTransport({
-      secure: true,
-      service: "gmail",
+      host: "smtpout.secureserver.net", // or smtp.yourdomain.com
+      port: 465, // use 465 for SSL or 587 for TLS
+      secure: true, // true for port 465, false for 587
       auth: {
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS,
@@ -54,7 +55,6 @@ export async function POST(req) {
     }
     h2 {
       text-align: center;
-      color: #f47c5b;
       margin-bottom: 10px;
     }
     p {
@@ -74,7 +74,7 @@ export async function POST(req) {
 </head>
 <body>
   <div class="container">
-    <img src="https://16194fa583.imgdist.com/pub/bfra/89k86i9q/7lc/8l2/mgm/Panzle.png" alt="Panzle Logo" class="logo" />
+    <img src="https://panzle.com/Panzle.webp" alt="Panzle Logo" class="logo" />
     <h2>New Project Inquiry</h2>
     <p><strong>Name:</strong> ${validatedData.name}</p>
     <p><strong>Email:</strong> ${validatedData.email}</p>

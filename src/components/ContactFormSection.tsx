@@ -230,8 +230,8 @@ export default function ContactFormSection() {
 
           {/* Right Image with parallax effect */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             whileHover={{ scale: 1.02 }}
