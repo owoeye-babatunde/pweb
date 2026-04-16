@@ -21,10 +21,12 @@ export async function POST(req) {
       },
     });
 
+    const allowedRecipient = "tunde@panzle.com";
+
     // Email options
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: process.env.EMAIL_TO,
+      to: allowedRecipient,
       subject: `Project Idea`,
       html: `
 	 <!DOCTYPE html>
