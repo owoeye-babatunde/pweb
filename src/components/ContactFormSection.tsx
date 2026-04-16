@@ -32,7 +32,6 @@ export default function ContactFormSection() {
   });
 
   const onSubmit = async (data: ContactFormValues) => {
-    console.log("Form submitted:", data);
     toast.info("Sending Message");
     // Handle form submission here (e.g., send to API)
     try {
